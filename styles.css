@@ -3,8 +3,24 @@ body{
     margin: 0;
 }
 
-main{
+.main{
     margin: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image{
+    height: 500px;
+    border-radius: 250px;
+    margin-right: 100px;
+}
+
+.main-description{
+    width: 400px;
+    line-height: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
 }
 
 .header, 
@@ -69,6 +85,7 @@ main{
 
 .contact{
     color: white;
+    text-decoration: none;
 }
 
 .linkedin .contact:hover,
