@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(224, 221, 211, 0.57);
+    margin: 0;
+}
+
+main{
+    margin: 100px 30px;
+}
+
+.header, 
+.footer {
+    background-color: rgb(39, 39, 39);
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header {
+    top: 0;
+}
+
+.name{
+    color: white;
+    font-weight: 900;
+    font-family: Lilita One, Arial;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.project-page{
+    color: white;
+    font-family: Lilita One, Arial;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 28px;
+}
+
+.project-page:hover{
+    color: aquamarine;
+}
+
+.footer {
+    bottom: 0;
+}
+
+.linkedin,
+.gmail,
+.github{
+    display: flex;
+    align-items: center;
+}
+
+.linkedin{
+    margin-left: 30px;
+}
+
+.github{
+    margin-right: 30px;
+}
+
+.logo{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact{
+    color: white;
+}
+
+.linkedin .contact:hover,
+.github .contact:hover{
+    color: aquamarine;
+}
